@@ -437,6 +437,8 @@ UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/User-Submitted
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/resistor-bourns.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/Transistors_v003.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/ds1307_pcf8583.lbr"
+UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/inductor-bourns.lbr"
+UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/SDR1806-470ML.lbr"
 
 [Win_1]
 Type="Control Panel"

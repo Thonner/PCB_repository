@@ -435,16 +435,17 @@ UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/SparkFun-Senso
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/SparkFun-Switches.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/Transistors_v003.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/User-Submitted.lbr"
+UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/adg451_adg452_adg453.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/ds1307_pcf8583.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/inductor-bourns.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/resistor-bourns.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/smd-footprints.lbr"
-UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/adg451_adg452_adg453.lbr"
+UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/SamacSys_Parts.lbr"
 
 [Win_1]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="3600 1080"
+Screen="2970 1680"
 Window="Win_1"

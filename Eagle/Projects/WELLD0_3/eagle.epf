@@ -404,6 +404,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/LilyPad-Wearables.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/SDR1806-470ML.lbr"
+UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/SamacSys_Parts.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/SparkFun-Aesthetics.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/SparkFun-Batteries.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/SparkFun-Boards.lbr"
@@ -440,7 +441,6 @@ UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/ds1307_pcf8583
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/inductor-bourns.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/resistor-bourns.lbr"
 UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/smd-footprints.lbr"
-UsedLibrary="C:/AnthonsStuff/DTU/HTE/PCB_repository/Eagle/Library/SamacSys_Parts.lbr"
 
 [Win_1]
 Type="Control Panel"

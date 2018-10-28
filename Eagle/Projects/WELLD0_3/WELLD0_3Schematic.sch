@@ -369,98 +369,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="led" urn="urn:adsk.eagle:library:259">
-<description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
-Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
-<packages>
-<package name="CREE-XLAMP-XM-L" urn="urn:adsk.eagle:footprint:15774/1" library_version="2">
-<description>&lt;b&gt;Cree® XLamp® XM-L LEDs&lt;/b&gt;&lt;p&gt;
-Source: http://www.cree.com</description>
-<smd name="C" x="-2.141" y="0" dx="0.5" dy="4.8" layer="1" stop="no" cream="no"/>
-<smd name="A" x="2.141" y="0" dx="0.5" dy="4.8" layer="1" stop="no" cream="no"/>
-<smd name="EXP" x="0" y="0" dx="2.782" dy="4.8" layer="1" stop="no" cream="no"/>
-<smd name="A@1" x="2.54" y="0" dx="0.5" dy="0.5" layer="1" stop="no" cream="no"/>
-<smd name="C@1" x="-2.54" y="0" dx="0.5" dy="0.5" layer="1" stop="no" cream="no"/>
-<rectangle x1="-2.35" y1="-2.35" x2="-1.9" y2="2.35" layer="31"/>
-<rectangle x1="-2.75" y1="-0.195" x2="-2.345" y2="0.2" layer="31"/>
-<rectangle x1="-1.295" y1="-2.355" x2="1.3" y2="2.35" layer="31"/>
-<rectangle x1="1.9" y1="-2.35" x2="2.35" y2="2.35" layer="31" rot="R180"/>
-<rectangle x1="2.345" y1="-0.2" x2="2.75" y2="0.195" layer="31" rot="R180"/>
-<rectangle x1="1.575" y1="-0.42" x2="1.695" y2="0.42" layer="51"/>
-<rectangle x1="1.57" y1="-0.42" x2="1.69" y2="0.42" layer="51" rot="R90"/>
-<rectangle x1="-2.44" y1="-2.45" x2="-1.845" y2="2.44" layer="29"/>
-<rectangle x1="-2.84" y1="-0.295" x2="-2.295" y2="0.3" layer="29"/>
-<rectangle x1="-1.455" y1="-2.44" x2="1.44" y2="2.445" layer="29"/>
-<rectangle x1="1.845" y1="-2.445" x2="2.44" y2="2.45" layer="29" rot="R180"/>
-<rectangle x1="2.295" y1="-0.3" x2="2.84" y2="0.295" layer="29" rot="R180"/>
-<wire x1="-2.4" y1="-2.395" x2="-2.4" y2="2.4" width="0.2" layer="51"/>
-<wire x1="-2.4" y1="2.4" x2="2.395" y2="2.4" width="0.2" layer="51"/>
-<wire x1="2.395" y1="2.4" x2="2.395" y2="-2.395" width="0.2" layer="51"/>
-<wire x1="2.395" y1="-2.395" x2="-2.4" y2="-2.395" width="0.2" layer="51"/>
-<circle x="0" y="0" radius="2.265046875" width="0.2" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="CREE-XLAMP-XM-L" urn="urn:adsk.eagle:package:15887/1" type="box" library_version="2">
-<description>Cree® XLamp® XM-L LEDs
-Source: http://www.cree.com</description>
-<packageinstances>
-<packageinstance name="CREE-XLAMP-XM-L"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="LED" urn="urn:adsk.eagle:symbol:15639/1" library_version="2">
-<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
-<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.429" y="-2.159"/>
-<vertex x="-3.048" y="-1.27"/>
-<vertex x="-2.54" y="-1.778"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="-3.302"/>
-<vertex x="-2.921" y="-2.413"/>
-<vertex x="-2.413" y="-2.921"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CREE-XLAMP-XM-L" urn="urn:adsk.eagle:component:15965/1" prefix="LED" library_version="2">
-<description>&lt;b&gt;Cree® XLamp® XM-L LEDs&lt;/b&gt;&lt;p&gt;
-Source: http://www.cree.com</description>
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CREE-XLAMP-XM-L">
-<connects>
-<connect gate="G$1" pin="A" pad="A A@1"/>
-<connect gate="G$1" pin="C" pad="C C@1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15887/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SDR1806-470ML">
 <packages>
 <package name="INDP1830X1400X690L250X260N">
@@ -11942,6 +11850,100 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="led1">
+<description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
+Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
+<packages>
+<package name="CREE-XLAMP-XM-L" urn="urn:adsk.eagle:footprint:15774/1">
+<description>&lt;b&gt;Cree® XLamp® XM-L LEDs&lt;/b&gt;&lt;p&gt;
+Source: http://www.cree.com</description>
+<smd name="C" x="-2.141" y="0" dx="0.5" dy="4.8" layer="1" stop="no" cream="no"/>
+<smd name="A" x="2.141" y="0" dx="0.5" dy="4.8" layer="1" stop="no" cream="no"/>
+<smd name="EXP" x="0" y="0" dx="2.782" dy="4.8" layer="1" stop="no" cream="no"/>
+<smd name="A@1" x="2.54" y="0" dx="0.5" dy="0.5" layer="1" stop="no" cream="no"/>
+<smd name="C@1" x="-2.54" y="0" dx="0.5" dy="0.5" layer="1" stop="no" cream="no"/>
+<rectangle x1="-2.35" y1="-2.35" x2="-1.9" y2="2.35" layer="31"/>
+<rectangle x1="-2.75" y1="-0.195" x2="-2.345" y2="0.2" layer="31"/>
+<rectangle x1="-1.295" y1="-2.355" x2="1.3" y2="2.35" layer="31"/>
+<rectangle x1="1.9" y1="-2.35" x2="2.35" y2="2.35" layer="31" rot="R180"/>
+<rectangle x1="2.345" y1="-0.2" x2="2.75" y2="0.195" layer="31" rot="R180"/>
+<rectangle x1="1.575" y1="-0.42" x2="1.695" y2="0.42" layer="51"/>
+<rectangle x1="1.57" y1="-0.42" x2="1.69" y2="0.42" layer="51" rot="R90"/>
+<rectangle x1="-2.44" y1="-2.45" x2="-1.845" y2="2.44" layer="29"/>
+<rectangle x1="-2.84" y1="-0.295" x2="-2.295" y2="0.3" layer="29"/>
+<rectangle x1="-1.455" y1="-2.44" x2="1.44" y2="2.445" layer="29"/>
+<rectangle x1="1.845" y1="-2.445" x2="2.44" y2="2.45" layer="29" rot="R180"/>
+<rectangle x1="2.295" y1="-0.3" x2="2.84" y2="0.295" layer="29" rot="R180"/>
+<wire x1="-2.4" y1="-2.395" x2="-2.4" y2="2.4" width="0.2" layer="51"/>
+<wire x1="-2.4" y1="2.4" x2="2.395" y2="2.4" width="0.2" layer="51"/>
+<wire x1="2.395" y1="2.4" x2="2.395" y2="-2.395" width="0.2" layer="51"/>
+<wire x1="2.395" y1="-2.395" x2="-2.4" y2="-2.395" width="0.2" layer="51"/>
+<circle x="0" y="0" radius="2.265046875" width="0.2" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="CREE-XLAMP-XM-L" urn="urn:adsk.eagle:package:15887/1" type="box">
+<description>Cree® XLamp® XM-L LEDs
+Source: http://www.cree.com</description>
+<packageinstances>
+<packageinstance name="CREE-XLAMP-XM-L"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="LED" urn="urn:adsk.eagle:symbol:15639/1" locally_modified="yes">
+<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
+<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="-2.159"/>
+<vertex x="-3.048" y="-1.27"/>
+<vertex x="-2.54" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-3.302"/>
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-2.413" y="-2.921"/>
+</polygon>
+<pin name="HEATSINK" x="-5.08" y="-2.54" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CREE-XLAMP-XM-L" urn="urn:adsk.eagle:component:15965/1" locally_modified="yes" prefix="LED">
+<description>&lt;b&gt;Cree® XLamp® XM-L LEDs&lt;/b&gt;&lt;p&gt;
+Source: http://www.cree.com</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CREE-XLAMP-XM-L">
+<connects>
+<connect gate="G$1" pin="A" pad="A A@1"/>
+<connect gate="G$1" pin="C" pad="C C@1"/>
+<connect gate="G$1" pin="HEATSINK" pad="EXP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15887/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11954,8 +11956,6 @@ W = angled&lt;p&gt;
 <parts>
 <part name="ST1CC40" library="SparkFun-Retired" deviceset="GENERIC-SOIC8" device="MSGEQ7N-FILTER"/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="CREE-XLAMP-XM-L" device="" package3d_urn="urn:adsk.eagle:package:15887/1" value="CREE-XLAMP-XM-L2"/>
-<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="CREE-XLAMP-XM-L" device="" package3d_urn="urn:adsk.eagle:package:15887/1" value="CREE-XLAMP-XM-L2"/>
 <part name="L" library="SDR1806-470ML" deviceset="SDR1806-470ML" device="" value="10µH SDR1806-100ML"/>
 <part name="COUT" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2µF"/>
 <part name="RS" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="15mΩ"/>
@@ -11994,6 +11994,10 @@ W = angled&lt;p&gt;
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2µF"/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1"/>
+<part name="LED2" library="led1" deviceset="CREE-XLAMP-XM-L" device="" package3d_urn="urn:adsk.eagle:package:15887/1"/>
+<part name="LED4" library="led1" deviceset="CREE-XLAMP-XM-L" device="" package3d_urn="urn:adsk.eagle:package:15887/1"/>
+<part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12007,14 +12011,6 @@ W = angled&lt;p&gt;
 <instance part="GND1" gate="1" x="149.86" y="81.28" rot="R90">
 <attribute name="VALUE" x="150.114" y="81.28" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="LED1" gate="G$1" x="73.66" y="86.36" rot="R270">
-<attribute name="NAME" x="69.088" y="82.804" size="1.778" layer="95"/>
-<attribute name="VALUE" x="69.088" y="80.645" size="1.778" layer="96"/>
-</instance>
-<instance part="LED3" gate="G$1" x="53.34" y="86.36" rot="R270">
-<attribute name="NAME" x="48.768" y="82.804" size="1.778" layer="95"/>
-<attribute name="VALUE" x="48.768" y="80.645" size="1.778" layer="96"/>
-</instance>
 <instance part="L" gate="G$1" x="86.36" y="86.36">
 <attribute name="NAME" x="83.812790625" y="88.907209375" size="1.78305" layer="95"/>
 <attribute name="VALUE" x="83.81281875" y="83.81281875" size="1.78301875" layer="96"/>
@@ -12023,12 +12019,12 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="80.264" y="96.901" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.264" y="91.821" size="1.778" layer="96"/>
 </instance>
-<instance part="RS" gate="G$1" x="45.72" y="93.98" rot="R90">
-<attribute name="NAME" x="44.2214" y="90.17" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="49.022" y="90.17" size="1.778" layer="96" rot="R90"/>
+<instance part="RS" gate="G$1" x="45.72" y="99.06" rot="R90">
+<attribute name="NAME" x="44.2214" y="95.25" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="49.022" y="95.25" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND2" gate="1" x="50.8" y="116.84" rot="R180">
-<attribute name="VALUE" x="50.8" y="117.094" size="1.778" layer="96" rot="R180" align="top-center"/>
+<instance part="GND2" gate="1" x="50.8" y="121.92" rot="R180">
+<attribute name="VALUE" x="50.8" y="122.174" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
 <instance part="GND3" gate="1" x="78.74" y="104.14" rot="R180">
 <attribute name="VALUE" x="78.74" y="104.394" size="1.778" layer="96" rot="R180" align="top-center"/>
@@ -12054,9 +12050,9 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="73.66" y="39.37" size="1.27" layer="95"/>
 <attribute name="VALUE" x="81.28" y="39.37" size="1.27" layer="96"/>
 </instance>
-<instance part="T2" gate="G$1" x="55.88" y="106.68" rot="R180">
-<attribute name="NAME" x="66.04" y="99.06" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="66.04" y="101.6" size="1.778" layer="96" rot="R180"/>
+<instance part="T2" gate="G$1" x="55.88" y="111.76" rot="R180">
+<attribute name="NAME" x="66.04" y="104.14" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="66.04" y="106.68" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="BAT+" gate="-1" x="-71.12" y="58.42">
 <attribute name="NAME" x="-68.58" y="57.658" size="1.524" layer="95"/>
@@ -12065,9 +12061,9 @@ W = angled&lt;p&gt;
 <instance part="BAT+" gate="-2" x="-71.12" y="53.34">
 <attribute name="NAME" x="-68.58" y="52.578" size="1.524" layer="95"/>
 </instance>
-<instance part="RS1" gate="G$1" x="53.34" y="93.98" rot="R90">
-<attribute name="NAME" x="51.8414" y="90.17" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="56.642" y="90.17" size="1.778" layer="96" rot="R90"/>
+<instance part="RS1" gate="G$1" x="53.34" y="99.06" rot="R90">
+<attribute name="NAME" x="51.8414" y="95.25" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="56.642" y="95.25" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="IC1" gate="G$1" x="-30.48" y="17.78">
 <attribute name="NAME" x="3.81" y="25.4" size="1.778" layer="95" align="center-left"/>
@@ -12160,6 +12156,20 @@ W = angled&lt;p&gt;
 <attribute name="VALUE" x="-102.87" y="-12.7" size="1.778" layer="96"/>
 <attribute name="NAME" x="-102.87" y="8.382" size="1.778" layer="95"/>
 </instance>
+<instance part="LED2" gate="G$1" x="53.34" y="81.28" rot="R270">
+<attribute name="NAME" x="48.768" y="77.724" size="1.778" layer="95"/>
+<attribute name="VALUE" x="48.768" y="75.565" size="1.778" layer="96"/>
+</instance>
+<instance part="LED4" gate="G$1" x="73.66" y="81.28" rot="R270">
+<attribute name="NAME" x="69.088" y="77.724" size="1.778" layer="95"/>
+<attribute name="VALUE" x="69.088" y="75.565" size="1.778" layer="96"/>
+</instance>
+<instance part="GND11" gate="1" x="50.8" y="91.44" rot="R180">
+<attribute name="VALUE" x="50.8" y="91.694" size="1.778" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="GND13" gate="1" x="71.12" y="91.44" rot="R180">
+<attribute name="VALUE" x="71.12" y="91.694" size="1.778" layer="96" rot="R180" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12221,12 +12231,12 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="T2" gate="G$1" pin="E"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="53.34" y1="111.76" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="114.3" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="116.84" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="119.38" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="RS" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="99.06" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="114.3" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
-<junction x="50.8" y="114.3"/>
+<wire x1="45.72" y1="104.14" x2="45.72" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="119.38" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
+<junction x="50.8" y="119.38"/>
 </segment>
 <segment>
 <pinref part="BAT+" gate="-2" pin="S"/>
@@ -12281,6 +12291,16 @@ W = angled&lt;p&gt;
 <wire x1="92.71" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 <label x="96.52" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="LED2" gate="G$1" pin="HEATSINK"/>
+<wire x1="50.8" y1="88.9" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="LED4" gate="G$1" pin="HEATSINK"/>
+<wire x1="71.12" y1="88.9" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="FB" class="0">
 <segment>
@@ -12289,24 +12309,24 @@ W = angled&lt;p&gt;
 <label x="144.78" y="76.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
 <label x="43.18" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="48.26" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="RS" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="88.9" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="93.98" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
 <junction x="45.72" y="86.36"/>
 <pinref part="RS1" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
-<junction x="45.72" y="88.9"/>
+<wire x1="53.34" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
+<junction x="45.72" y="93.98"/>
 <pinref part="LED-" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="86.36" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<wire x1="48.26" y1="86.36" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="L" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="81.28" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="COUT" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
@@ -12314,27 +12334,31 @@ W = angled&lt;p&gt;
 <junction x="78.74" y="86.36"/>
 <pinref part="LED+" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="86.36" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="81.28" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="68.58" y1="86.36" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="55.88" y1="86.36" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
+<wire x1="68.58" y1="86.36" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="RS1" gate="G$1" pin="2"/>
 <pinref part="T2" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="99.06" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="104.14" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIM" class="0">
 <segment>
 <pinref part="T2" gate="G$1" pin="B"/>
-<wire x1="58.42" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
-<label x="60.96" y="106.68" size="1.778" layer="95" xref="yes"/>
+<wire x1="58.42" y1="111.76" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
+<label x="60.96" y="111.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA6"/>

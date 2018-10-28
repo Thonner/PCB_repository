@@ -8191,9 +8191,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <parts>
 <part name="ST1CC40" library="SparkFun-Retired" deviceset="GENERIC-SOIC8" device="MSGEQ7N-FILTER"/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="CREE-XLAMP-XM-L" device="" package3d_urn="urn:adsk.eagle:package:15887/1"/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="CREE-XLAMP-XM-L" device="" package3d_urn="urn:adsk.eagle:package:15887/1"/>
-<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="CREE-XLAMP-XM-L" device="" package3d_urn="urn:adsk.eagle:package:15887/1"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="CREE-XLAMP-XM-L" device="" package3d_urn="urn:adsk.eagle:package:15887/1" value="CREE-XLAMP-XM-L2"/>
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="CREE-XLAMP-XM-L" device="" package3d_urn="urn:adsk.eagle:package:15887/1" value="CREE-XLAMP-XM-L2"/>
+<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="CREE-XLAMP-XM-L" device="" package3d_urn="urn:adsk.eagle:package:15887/1" value="CREE-XLAMP-XM-L2"/>
 <part name="L" library="SDR1806-470ML" deviceset="SDR1806-470ML" device="" value="10µH SDR1806-100ML"/>
 <part name="COUT" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2µF"/>
 <part name="RS" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="15mΩ"/>
